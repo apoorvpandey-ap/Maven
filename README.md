@@ -25,29 +25,34 @@
 
 
 ### Plugin
---
-```
-Core plugins
-clean
-compiler
-deploy
-failsafe
-install
-resources
-site
-surefire
-verifier
-```
+Plugin | Description
+-- | --
+Core plugins | Plugins corresponding to default core phases (ie. clean, compile). They may have multiple goals as well.
+clean | Clean up after the build.
+compiler | Compiles Java sources.
+deploy | Deploy the built artifact to the remote repository.
+failsafe | Run the JUnit integration tests in an isolated classloader.
+install | Install the built artifact into the local repository.
+resources | Copy the resources to the output directory for including in the JAR.
+site | Generate a site for the current project.
+surefire | Run the JUnit unit tests in an isolated classloader.
+verifier | Useful for integration tests - verifies the existence of certain conditions.
+
+**_for ex- mvn clean install (it clean the build after installation)_**
+
+### Packaging
+Packaging  | Description
+-- | --
+ear | Generate an EAR from the current project.
+ejb | Build an EJB (and optional client) from the current project.
+jar | Build a JAR from the current project.
+rar |  Build a RAR from the current project.
+
+### Feature of Maven
+**release**: clean
+**release**: prepare
+**release**: rollback
+**release**: perform 
 
 
-
-
-
-
-
-
-
-
-
-
-
+`note: Every maven project has a packaging type, by default its jar `
