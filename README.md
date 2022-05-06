@@ -50,10 +50,6 @@ rar |  Build a RAR from the current project.
 
 ### Feature of Maven
 
-**release**: clean
-**release**: prepare
-**release**: rollback
-**release**: perform 
-
+![image](https://user-images.githubusercontent.com/66588814/167067527-06758ede-8cb7-4b14-8113-ec751a9c9fce.png)
 
 `note: Every maven project has a packaging type, by default its jar `
