@@ -16,10 +16,10 @@
 
 ```
 <project> 
-    <model version>**4.0.0**</model version>
-    <group id >**com**</group id>
-    <artifact id>**vdoxx**</artifact>
-    <version>**2.1**</version>
+    <model version>4.0.0</model version>
+    <group id >com</group id>
+    <artifact id>vdoxx</artifact>
+    <version>2.1</version>
 </project>
 ```
 
